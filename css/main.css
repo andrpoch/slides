@@ -1,0 +1,95 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  background: rgba(255, 255, 255, 0.976);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.07);
+  border-radius: 0px;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-list__logo {
+  padding: 15px 0px 20px 0px;
+  margin-right: 781px;
+}
+
+.header-list__item {
+  margin-right: 34px;
+}
+
+.header-list__item:last-child {
+  margin-right: 0px;
+}
+
+.header-list__link {
+  padding: 21px 0px 25px 0px;
+  color: var(--main-text-color);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+.header-list__btn {
+  padding: 9px 16px 10px 16px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  background-color: #2164e1;
+  color: var(--white-text-color);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+:root {
+  --main-text-color: #202020;
+  --white-text-color: #ffffff;
+}
+
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+/*# sourceMappingURL=main.css.map */
