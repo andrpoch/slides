@@ -1,0 +1,13 @@
+.clients {
+  padding: 100px 0px 100px 0px;
+}
+.clients-list {
+  display: flex;
+  align-items: center;
+  &__item {
+    margin-right: 57.5px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}

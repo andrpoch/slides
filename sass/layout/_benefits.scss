@@ -1,0 +1,86 @@
+.benefits {
+  padding: 91px 0px 80px 0px;
+  &__title {
+    min-width: 440px;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 1.25;
+    letter-spacing: 0.858px;
+    color: var(--main-text-color);
+
+    margin-bottom: 25px;
+    &_yellow {
+      color: #e1af2c;
+    }
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 1.5;
+    letter-spacing: 0.231px;
+    color: var(--main-text-color);
+
+    margin-bottom: 25px;
+    margin-left: 9px;
+  }
+}
+.benefits-content {
+  display: flex;
+  &__left {
+    margin-right: 231px;
+  }
+}
+
+.images-list {
+  position: relative;
+  &__item_1 {
+    width: 480px;
+    height: 300px;
+    position: absolute;
+    z-index: 2;
+    top: 92px;
+    left: 88px;
+  }
+  &__item_2 {
+    width: 480px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    top: 46px;
+    left: 44px;
+  }
+  &__item_3 {
+    width: 480px;
+    height: 300px;
+    align-self: absolute;
+  }
+}
+.box {
+  display: flex;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 100px;
+    background-color: #f3f3f3;
+    border-radius: 6px;
+
+    margin-right: 10px;
+    margin-left: 9px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+  &__title {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 1.25;
+    text-align: center;
+    letter-spacing: 0.405px;
+    color: var(--main-text-color);
+
+    margin-right: 3px;
+  }
+}
