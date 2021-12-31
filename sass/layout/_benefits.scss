@@ -68,7 +68,9 @@
     border-radius: 6px;
 
     margin-right: 10px;
-    margin-left: 9px;
+    &:first-child {
+      margin-left: 9px;
+    }
     &:last-child {
       margin-right: 0px;
     }
@@ -82,5 +84,17 @@
     color: var(--main-text-color);
 
     margin-right: 3px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 1.35px;
+    text-transform: uppercase;
+
+    color: var(--main-text-color);
   }
 }
