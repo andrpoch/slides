@@ -21,6 +21,11 @@
       referrerpolicy="no-referrer"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
@@ -394,8 +399,184 @@
           </picture>
         </div>
       </section>
+
+      <section class="slider">
+        <div class="container">
+          <h2 class="visually-hidden">Slider</h2>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <picture class="center">
+                  <source
+                    srcset="
+                      ./images/slider/slider-min.jpg    1x,
+                      ./images/slider/slider-2x-min.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/slider/slider-min.jpg"
+                    width="908"
+                    height="453"
+                    alt="Quote"
+                  />
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </div>
+      </section>
+      <section class="pricing">
+        <div class="container">
+          <div class="pricing-content">
+            <h2 class="pricing__title">Pricing</h2>
+            <div class="pricing__checkbox">
+              <p class="prining__text">Annual</p>
+              <label class="checkbox-ios">
+                <input type="checkbox" />
+                <span class="checkbox-ios-switch"></span>
+              </label>
+              <p class="prining__text">Monthly</p>
+            </div>
+            <div class="card">
+              <ul class="card__list">
+                <li class="card__item">
+                  <h3 class="card__title">Free</h3>
+                  <ul class="compare-list">
+                    <li class="compare-list__item">
+                      <svg class="icon-check" width="16" height="10">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                      Limited Slides
+                    </li>
+                    <li class="compare-list__item">
+                      <svg class="icon-check" width="16" height="10">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                      Limited Settings
+                    </li>
+                    <li class="compare-list__item">
+                      <svg class="icon-check" width="16" height="10">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                      Limited Effects
+                    </li>
+                    <li class="compare-list__item">
+                      <svg class="icon-check" width="16" height="10">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                      No Support
+                    </li>
+                    <li class="compare-list__item">
+                      <svg class="icon-check" width="16" height="10">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                      No Credit Card Needed
+                    </li>
+                  </ul>
+
+                  <h3 class="pricing__price">0</h3>
+                  <p class="pricing__save">No credit card needed.</p>
+                  <button class="pticing__btn pricing__btn_free" type="button">
+                    Try for Free
+                  </button>
+                </li>
+                <li class="card__item">
+                  <h3 class="card__title">Business</h3>
+                  <ul class="compare-list">
+                    <li class="compare-list__item">
+                      <svg class="icon-check" width="16" height="10">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                      20 Exports per Month
+                    </li>
+                    <li class="compare-list__item">
+                      <svg class="icon-check" width="16" height="10">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                      Unlimited Projects
+                    </li>
+                    <li class="compare-list__item">
+                      <svg class="icon-check" width="16" height="10">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                      Unlimited pages
+                    </li>
+                    <li class="compare-list__item">
+                      <svg class="icon-check" width="16" height="10">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                      Project Management
+                    </li>
+                    <li class="compare-list__item">
+                      <svg class="icon-check" width="16" height="10">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                      Support and Updates
+                    </li>
+                  </ul>
+                  <h3 class="pricing__price">
+                    21 <span class="pricing__price_month">/ per month</span>
+                  </h3>
+                  <p class="pricing__save">$249 billed annually. Save $99.</p>
+                  <button class="pticing__btn" type="button">
+                    Add to Card
+                  </button>
+                </li>
+                <li class="card__item">
+                  <h3 class="card__title">Agency</h3>
+                  <ul class="compare-list">
+                    <li class="compare-list__item">
+                      <svg class="icon-check" width="16" height="10">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                      Unlimited Exports
+                    </li>
+                    <li class="compare-list__item">
+                      <svg class="icon-check" width="16" height="10">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                      Unlimited Projects
+                    </li>
+                    <li class="compare-list__item">
+                      <svg class="icon-check" width="16" height="10">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                      Unlimited Pages
+                    </li>
+                    <li class="compare-list__item">
+                      <svg class="icon-check" width="16" height="10">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                      Project Management
+                    </li>
+                    <li class="compare-list__item">
+                      <svg class="icon-check" width="16" height="10">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                      Support and Updates
+                    </li>
+                  </ul>
+                  <h3 class="pricing__price">
+                    29 <span class="pricing__price_month"> / per month</span>
+                  </h3>
+                  <p class="pricing__save">$349 billed annually. Save $119.</p>
+                  <button class="pticing__btn" type="button">
+                    Add to Card
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer"></footer>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
   </body>
 </html>

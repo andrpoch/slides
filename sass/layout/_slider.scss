@@ -1,0 +1,19 @@
+.slider {
+  padding: 162px 0px 39px 0px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.swiper-slide:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #cccccc;
+  margin-top: 98px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: black;
+}

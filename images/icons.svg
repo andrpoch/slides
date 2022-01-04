@@ -321,5 +321,17 @@
                stroke="#12E700" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="105 107"></path>
          </symbol>
       </svg>
+      <symbol id="icon-check" viewBox="0 0 47 32">
+         <path fill="none" stroke="#30b467" style="stroke: var(--color1, #30b467)" stroke-linejoin="miter"
+            stroke-linecap="butt" stroke-miterlimit="4" stroke-width="7.3846" d="M2.837 7.482l12.308 14.769"></path>
+         <path fill="none" stroke="#30b467" style="stroke: var(--color1, #30b467)" stroke-linejoin="miter"
+            stroke-linecap="butt" stroke-miterlimit="4" stroke-width="7.3846" d="M41.868 2.732l-27.077 24.615"></path>
+      </symbol>
+      <symbol id="icon-not-check" viewBox="0 0 47 32">
+         <path fill="none" stroke="#b9b9b9" style="stroke: var(--color1, #b9b9b9)" stroke-linejoin="miter"
+            stroke-linecap="butt" stroke-miterlimit="4" stroke-width="7.3846" d="M2.837 7.482l12.308 14.769"></path>
+         <path fill="none" stroke="#b9b9b9" style="stroke: var(--color1, #b9b9b9)" stroke-linejoin="miter"
+            stroke-linecap="butt" stroke-miterlimit="4" stroke-width="7.3846" d="M41.868 2.732l-27.077 24.615"></path>
+      </symbol>
    </defs>
 </svg>
