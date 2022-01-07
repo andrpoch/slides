@@ -58,12 +58,17 @@
   &__btn {
     padding: 9px 75px 10px 75px;
     font-weight: 700;
-font-size: 15px;
-line-height: 1.5;
-text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
 
-color: var(--whi);
-
+    color: var(--white-text-color);
+    background-color: #30b467;
+    &_free {
+      background-color: #2164e1;
+    }
   }
 }
 
